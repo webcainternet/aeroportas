@@ -28,7 +28,7 @@ $_['entry_message']        = 'Mensagem';
 // Help
 $_['help_customer']       = 'Autocomplete';
 $_['help_affiliate']      = 'Autocomplete';
-$_['help_product']        = 'Envie apenas para pessoas que compraram o produto da lista. (Autocomplete)';
+$_['help_product']        = 'Envie apenas para pessoas que Orçaram o produto da lista. (Autocomplete)';
 
 // Error
 $_['error_permission']     = 'Atenção: Você não tem permissão para modificar E-Mail\'s!';

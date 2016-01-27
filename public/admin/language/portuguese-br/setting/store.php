@@ -53,7 +53,7 @@ $_['entry_customer_group_display']     = 'Grupos de clientes';
 $_['entry_customer_price']             = 'Ver preços apenas logado';
 $_['entry_account']                    = 'Termos de cadastro';
 $_['entry_cart_weight']                = 'Mostrar o peso do carrinho';
-$_['entry_checkout_guest']             = 'Comprar sem cadastro';
+$_['entry_checkout_guest']             = 'Orçar sem cadastro';
 $_['entry_checkout']                   = 'Termos de compra';
 $_['entry_order_status']               = 'Situação do Pedido';
 $_['entry_stock_display']              = 'Mostrar estoque';
@@ -94,7 +94,7 @@ $_['help_checkout_guest']              = 'Permitir que os clientes comprem sem p
 $_['help_checkout']                    = 'Termo que o cliente deverá obrigatoriamente aceitar para finalizar um pedido na loja.';
 $_['help_order_status']                = 'Situação padrão do pedido quando finalizado pelo cliente.';
 $_['help_stock_display']               = 'Exibir a quantidade em estoque na página do produto?';
-$_['help_stock_checkout']              = 'Permitir aos clientes comprar o produto mesmo quando estiver fora de estoque?';
+$_['help_stock_checkout']              = 'Permitir aos clientes Orçar o produto mesmo quando estiver fora de estoque?';
 $_['help_icon']                        = 'Exibido na barra de endereços do navegador. Deve ser uma imagem com extensão .png de 16x16 pixels.';
 $_['help_secure']                      = 'É necessário possuir um certificado SSL válido e instalado para o domínio da loja e alterar os arquivos config.php.';
 

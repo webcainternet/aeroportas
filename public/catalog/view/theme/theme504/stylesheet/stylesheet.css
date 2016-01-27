@@ -4,7 +4,8 @@ body {
 	color: #777777;
 	font-size: 13px;
 	line-height: 20px;
-	background:url(../image/bg.jpg) no-repeat center top #f1f1f1;
+	/* background:url(../image/bg.jpg) no-repeat center top #F1F1F1; */
+    background-color: #F1F1F1;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Ubuntu', sans-serif;
@@ -554,7 +555,7 @@ input#input-coupon {
 	margin-top:0;
 }
 footer {
-	background-color:#f1f1f1;
+	background-color:#F1F1F1;
 	margin-top: 30px;
 	padding-top: 45px;
 }
@@ -602,7 +603,9 @@ footer h5 {
 	font-size: 22px;
 	line-height:24px;
 	font-weight:400;
-	margin:0 0 10px
+	margin:0 0 10px;
+	padding-bottom: 8px;
+    border-bottom: 1px solid #dcdcdc;
 }
 .footer_box {
 	margin-bottom:15px;
@@ -633,7 +636,8 @@ footer h5 {
 	padding:25px 0 50px;
 	font-size:12px;
 	text-transform:uppercase;
-	color:#1d1f20
+	color:#1d1f20;
+	border-top: 1px solid #dcdcdc;
 }
 /* alert */
 .alert {
@@ -1160,7 +1164,7 @@ aside .box {
 	font-size:29px;
 	line-height:35px;
 	color:#1d1f20;
-	border-bottom:1px solid #f1f1f1;
+	border-bottom:1px solid #F1F1F1;
 	margin:0 0 30px;
 	text-transform:none;
 	padding-bottom:15px;
@@ -1263,6 +1267,7 @@ aside .box.facebook {
 #page {
 	overflow:hidden;
 	max-width:1270px;
+	min-height: 1550px;
 	margin: 0 auto;
 	background-color:#fff;
 }
@@ -1428,8 +1433,10 @@ aside .box.facebook {
 .box-category .menu li li a:hover {color: #F69124;}
 /**************BANNERS***********************/
 .banners {
-	margin:0 -1px 28px;
-	overflow:hidden;
+	padding: 20px 20px 0px 20px;
+    overflow: hidden;
+    background: #F1F1F1;
+    margin-bottom: 30px;
 }
 .banners>div a:hover img {
 	-moz-transform:scale(1.1,1.1);
@@ -1538,7 +1545,7 @@ aside .box.facebook {
 	border-left:1px solid #eeeeee;
 }
 .content_bottom .banners {
-	border-top:1px solid #f1f1f1;
+	border-top:1px solid #F1F1F1;
 	padding-top:40px;
 }
 /**************Box HTML Module***********************/
@@ -1671,7 +1678,7 @@ aside .box.facebook {
 }
 /***************HOME PAGE**********************/
 .header_modules {
-	margin-bottom:49px;
+	margin-bottom:30px;
 }
 .header_modules .owl-carousel {
 	border:0;
@@ -2263,7 +2270,7 @@ box-subcat li .name a:hover {
 	height:250px
 }
 .camera_caption {
-	background-image:url(../image/bg-caption.png);
+	/* background-image:url(../image/bg-caption.png); */
 	background-position:right top;
 	background-repeat:no-repeat;
 	background-size: auto 100%
@@ -2962,3 +2969,45 @@ label{
 
 
 
+
+/* WEBCA */
+.shipping-wrap {
+    background: #474747;
+    height: 100px;
+    line-height: 100px;
+}
+.shipping p {
+    background: url("image/ship.png") left center no-repeat;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 14px;
+    line-height: 100px;
+    padding-left: 70px;
+    font-size: 20px;
+}
+.buttonss {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+    background: #ffffff;
+    border-radius: 10px;
+    font: 700 16px 'Open Sans' sans-serif;
+    padding: 10px 21px;
+    text-transform: uppercase;
+    color: #F69124;
+}
+#pagefooter {
+    overflow: hidden;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+#pagetop {
+    overflow: hidden;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+#pagemenu {
+	height: 70px;
+}

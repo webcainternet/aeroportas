@@ -116,7 +116,7 @@
 		</ul>
 	</div>
 </div>
-<div id="page">
+<div id="pagetop">
 <div class="shadow"></div>
 <div class="toprow-1">
 	<a class="swipe-control" href="#"><i class="fa fa-align-justify"></i></a>
@@ -188,6 +188,9 @@
 		};
 	});
 </script>-->
+
+</div>
+<div id="pagemenu">
 <div id="tm_menu" class="nav__primary">
 	<div class="container">
 		<div class="menu-shadow">
@@ -196,5 +199,9 @@
 		</div>
 	</div>
 </div>
+</div>
+<div style="background: #FFF;"><?php /* 872613 */ ?>
+
+<div id="page">
 <?php } ?>
 <p id="back-top"> <a href="#top"><span></span></a> </p>

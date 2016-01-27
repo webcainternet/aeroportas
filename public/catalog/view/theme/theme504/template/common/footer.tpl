@@ -1,3 +1,22 @@
+</div>
+
+</div>
+
+<div class="shipping-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="shipping">
+                    <p><span style="font-weight: bold; margin-right: 20px;">ENTREGA RÁPIDA </span> Aero Portas - lorem ipsum dolor sit amet mauris accumsan vitate odio tellus</p>
+                    <a href="#" class="buttonss">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="pagefooter">
+
 <footer>
   <div class="container">
 	<div class="row">
@@ -120,12 +139,12 @@
 	
   </div>
 	<div class="copyright">
-		<div class="container" style="width: 50%;">
+		<div class="container" style="width: 50%; float: left;">
 			<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
 		</div> 
 
-		<div class="container" style="width: 50%;">
-			dwqdw
+		<div class="container" style="width: 50%; float: left; text-align: right;">
+			Certificado: <img src="/image/comodo_secure_76x26_transp.png">
 		</div> 
 	</div>
 </footer>

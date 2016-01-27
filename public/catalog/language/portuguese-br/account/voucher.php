@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']    = 'Comprar Vale Presentes';
+$_['heading_title']    = 'Orçar Vale Presentes';
 
 // Text
 $_['text_account']     = 'Minha Conta';

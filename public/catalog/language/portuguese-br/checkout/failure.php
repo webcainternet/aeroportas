@@ -14,7 +14,7 @@ $_['text_message']  = '<p>Ocorreu um problema de pagamento no processamento do s
   <li>Falha na verificação</li>
 </ul>
 
-<p>Por favor tente comprar novamente usando um novo método de pagamento.</p>
+<p>Por favor tente Orçar novamente usando um novo método de pagamento.</p>
 
-<p>Caso o problema persista entre <a href="%s">contato com nós</a>, com os dados do produto que você está tentando comprar.</p>
+<p>Caso o problema persista entre <a href="%s">contato com nós</a>, com os dados do produto que você está tentando Orçar.</p>
 ';
