@@ -2977,7 +2977,7 @@ label{
     line-height: 100px;
 }
 .shipping p {
-    background: url("image/ship.png") left center no-repeat;
+    background: url("/image/ship.png") left center no-repeat;
     color: #ffffff;
     display: inline-block;
     margin-right: 14px;
