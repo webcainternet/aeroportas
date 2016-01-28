@@ -1434,7 +1434,6 @@ aside .box.facebook {
 /**************BANNERS***********************/
 .banners {
     overflow: hidden;
-    margin-bottom: 30px;
 }
 .banners>div a:hover img {
 	-moz-transform:scale(1.1,1.1);
@@ -1676,7 +1675,6 @@ aside .box.facebook {
 }
 /***************HOME PAGE**********************/
 .header_modules {
-	margin-bottom:30px;
 }
 .header_modules .owl-carousel {
 	border:0;
