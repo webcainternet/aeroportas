@@ -3,8 +3,8 @@
 $_['heading_title']    = 'Carrinho de compra';
 
 // Text
-$_['text_success']           = 'Você adicionou <a href="%s">%s</a> ao seu <a href="%s">carrinho de compras</a>.';
-$_['text_remove']            = 'Você modificou seu carrinho de compras!';
+$_['text_success']           = 'Você adicionou <a href="%s">%s</a> ao seu <a href="%s">Produtos para orçamento</a>.';
+$_['text_remove']            = 'Você modificou seu Produtos para orçamento!';
 $_['text_login']             = 'Atenção: Acesse sua <a href="%s">conta</a> ou <a href="%s">cadastre-se</a> para visualizar os preços!';
  
 			$_['text_items2']    = '%s';

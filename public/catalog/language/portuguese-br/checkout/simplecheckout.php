@@ -1,6 +1,6 @@
 <?php
 // Heading 
-$_['heading_title']                  = 'Finalizar a compra';
+$_['heading_title']                  = 'Finalizar o orçamento';
 
 $_['button_login']                   = 'Logar';
 $_['button_order']                   = 'Finalizar pedido';
@@ -9,7 +9,7 @@ $_['button_prev']                    = 'Previous step';
 $_['button_next']                    = 'Next step';
 
 // Text
-$_['text_cart']                      = 'Carrinho de compras';
+$_['text_cart']                      = 'Produtos para orçamento';
 $_['text_checkout_customer']         = 'Já sou cliente';
 $_['text_checkout_customer_login']   = 'Clique aqui para Logar';
 $_['text_checkout_customer_cancel']  = 'Cancelar';

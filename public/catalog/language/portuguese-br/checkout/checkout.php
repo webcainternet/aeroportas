@@ -3,7 +3,7 @@
 $_['heading_title']                  = 'Finalizar Compra';
 
 // Text
-$_['text_cart']                      = 'Meu Carrinho';
+$_['text_cart']                      = 'Meu orçamento';
 $_['text_checkout_option']           = '1º Passo: Identificação';
 $_['text_checkout_account']          = '2º Passo: Conta e endereço para cobrança';
 $_['text_checkout_payment_address']  = '2º Passo: Endereço para cobrança';

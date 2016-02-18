@@ -1,7 +1,7 @@
 <?php
 // Text
 $_['text_success']     = 'Seu desconto vale presente foi aplicado com sucesso!';
-$_['text_cart']        = 'Você modificou seu carrinho de compras com sucesso!';
+$_['text_cart']        = 'Você modificou seu Produtos para orçamento com sucesso!';
 
 $_['text_for']         = '%s Certificado de presente para %s';
 

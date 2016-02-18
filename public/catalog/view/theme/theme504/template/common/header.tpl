@@ -163,9 +163,8 @@
 			<?php echo $cart; ?>
 			<?php echo $search; ?>
 			<ul class="soc-icon">
-				<li><a href="//www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="//www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="//www.pinterest.com/"><i class="fa fa-pinterest"></i></a></li>
+				<li><a href="https://www.facebook.com/AeroPortas"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.youtube.com/channel/UCtvnyjt3dxWRuTk3Nxy7jBg"><i class="fa fa-youtube"></i></a></li>
 			</ul>
 			<div class="clear"></div>
 		</div>

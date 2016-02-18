@@ -1,6 +1,6 @@
 <?php
 // Text
-$_['text_success']     = ' Você modificou seu carrinho de compras com sucesso!';
+$_['text_success']     = ' Você modificou seu Produtos para orçamento com sucesso!';
 
 // Error
 $_['error_permission'] = 'Atenção: Você não tem permissão para acessar a API!';
