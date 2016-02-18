@@ -3009,7 +3009,9 @@ label{
 }
 
 
+/* WEBCA */
 
+/* Telefones na home */
 .telefones {
     background-color: #FEF3E7;
     margin-right: 20px;
@@ -3038,3 +3040,29 @@ label{
 .telefones:hover h2 {
 	color: #FFF;
 }
+/* FIM Telefones na home */
+
+
+/* Esconder preços */
+.price-section {
+	display: none;
+}
+.price {
+	display: none;
+}
+.total {
+	display: none;
+}
+#total_sub_total {
+	display: none;
+}
+#total_total {
+	display: none;
+}
+#simplecheckout_payment {
+	display: none;
+}
+.simplecheckout-cart-total {
+	display: none;
+}
+/* FIM Esconder preços */

@@ -11,6 +11,6 @@ $_['text_order']         = 'Histórico de pedidos';
 $_['text_transaction']   = 'Transações';
 $_['text_download']      = 'Downloads';
 $_['text_logout']        = 'Sair';
-$_['text_checkout']      = 'Finalizar Pedido';
+$_['text_checkout']      = 'Finalizar o orçamento';
 $_['text_search']        = 'Buscar Produto';
 $_['text_all']           = 'Ver Todos';

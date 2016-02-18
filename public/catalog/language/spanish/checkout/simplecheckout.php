@@ -1,6 +1,6 @@
 <?php
 // Heading 
-$_['heading_title']                  = 'Finalizar Pedido';
+$_['heading_title']                  = 'Finalizar o orçamento';
 
 $_['button_login']                   = 'Acceder';
 $_['button_order']                   = 'Realizar Pedido';
