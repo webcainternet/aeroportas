@@ -28,6 +28,7 @@
 			});
 	});
 </script>
+
 <div class="fluid_container" >
 	<div id="camera_wrap_<?php echo $module; ?>">
 	<?php foreach ($banners as $banner) { ?>

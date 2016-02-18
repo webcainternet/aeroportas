@@ -9,7 +9,38 @@
 		<?php } else { ?>
 		<?php $class = 'col-sm-12'; ?>
 		<?php } ?>
-		<div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?></div>
+
+<div>
+	<div class="col-sm-12" style="margin-top: 15px;">
+		<div class="telefones">
+			<h1>Av. Bandeirantes</h1>
+			<h2>11 5096-1803</h2>
+		</div>
+
+		<div class="telefones">
+			<h1>Rua do Gasômetro, 360</h1>
+			<h2>11 3313-8942</h2>
+		</div>
+
+		<div class="telefones">
+			<h1>Av. Salgado Filho</h1>
+			<h2>11 2382-5185</h2>
+		</div>
+
+		<div class="telefones">
+			<h1>Rua do Gasômetro, 326</h1>
+			<h2>11 3227-9747</h2>
+		</div>
+
+		<div class="telefones" style="margin-right: 0px;">
+			<h1>Rua do Gasômetro, 218</h1>
+			<h2>11 3227-1226</h2>
+		</div>
+	</div>
+</div>
+
+		<div id="content" class="<?php echo $class; ?>">
+		<?php echo $content_top; ?></div>
 		<?php echo $column_right; ?></div>
 	</div>
 </div>
