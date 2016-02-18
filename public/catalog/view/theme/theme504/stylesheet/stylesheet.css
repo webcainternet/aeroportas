@@ -1267,7 +1267,7 @@ aside .box.facebook {
 #page {
 	overflow:hidden;
 	max-width:1270px;
-	min-height: 1550px;
+	/* min-height: 1550px; */
 	margin: 0 auto;
 	background-color:#fff;
 }
