@@ -6,6 +6,7 @@
 		<span id="cart-total"><?php echo $text_items; ?></span>
 		<?php if (isset($text_items2)) { ?><span id="cart-total2"><?php echo $text_items2; ?></span><?php } ?>
 	</button>
+	<div class="cart-meuorcamento">Meu orçamento</div>
   <ul class="dropdown-menu pull-right">
 	<?php if ($products || $vouchers) { ?>
 	<li>

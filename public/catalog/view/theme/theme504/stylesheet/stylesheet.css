@@ -187,11 +187,10 @@ ul.soc-icon li a:hover i {
 	color:#333
 }
 ul.soc-icon li i {
-	color:#fff;
+	color:#F69124;
 	font-size:18px;
 	line-height:32px;
 	width:32px;
-	background-color:#F69124;
 	vertical-align:top;
 	border-radius:50%
 }
@@ -200,9 +199,8 @@ ul.soc-icon li i {
 	position:relative;
 	z-index:46;
 	float:right;
-	border:1px solid #bcbcbc;
+	border-bottom: 1px solid #bcbcbc;
 	margin:16px 0 10px 10px;
-	border-radius:14px;
 }
 #search button:active,
 #search button:hover {
@@ -3013,32 +3011,35 @@ label{
 
 /* Telefones na home */
 .telefones {
-    background-color: #FEF3E7;
+    background-color: #F69124;
     margin-right: 20px;
-    padding: 1px 10px;
+    padding: 10px 10px;
     margin-bottom: 15px;
-    border: solid 1px #F69124;
     text-align: center;
     float: left;
     width: 218px;
 }
 .telefones:hover {
-	background-color: #F69124;
-	border: solid 1px #F69124;
+	background-color: #474747;
 }
 .telefones h1 {
-	color: #F69124;
-    font-size: 18px;
-}
-.telefones:hover h1 {
 	color: #FFF;
+    font-size: 18px;
+    margin: 0px;
 }
 .telefones h2 {
-	color: #444;
-    font-size: 30px;
-}
-.telefones:hover h2 {
 	color: #FFF;
+    font-size: 30px;
+    margin: 0px;
+}
+.banner-home-loja {
+	text-align: left;
+    color: #FFF;
+}
+
+.banner-home-titulo {
+	font-size: 18px;
+    color: #FFF;
 }
 /* FIM Telefones na home */
 
@@ -3066,3 +3067,17 @@ label{
 	display: none;
 }
 /* FIM Esconder preços */
+
+
+
+
+
+
+
+.cart-meuorcamento {
+	color: #F69124;	
+    float: right;
+    margin: 10px;
+    font-size: 18px;
+    padding-top: 10px;
+}

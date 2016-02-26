@@ -139,22 +139,7 @@
 				<div id="top-links" class="nav">
 				<ul class="list-inline">
 					<li class="first"><a href="<?php echo $home; ?>"><i class="fa fa-home hidden-md hidden-lg"></i><span class="hidden-sm"><?php echo $text_home; ?></span></a></li>
-					<li class="dropdown"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user hidden-md hidden-lg"></i> <span class="hidden-sm"><?php echo $text_account; ?></span> <span class="caret"></span></a>
-					<ul class="dropdown-menu dropdown-menu-left">
-						<?php if ($logged) { ?>
-						<li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-						<li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
-						<li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
-						<li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
-						<li><a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a></li>
-						<?php } else { ?>
-						<li><a href="<?php echo $register; ?>"><?php echo $text_register; ?></a></li>
-						<li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
-						<?php } ?>
-					</ul>
-					</li>
 					<li><a href="<?php echo $wishlist; ?>" id="wishlist-total" title="<?php echo $text_wishlist; ?>"><i class="fa fa-heart hidden-md hidden-lg"></i> <span class="hidden-sm"><?php echo $text_wishlist; ?></span></a></li>
-					<li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart hidden-md hidden-lg"></i> <span class="hidden-sm"><?php echo $text_shopping_cart; ?></span></a></li>
 					<li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share hidden-md hidden-lg"></i> <span class="hidden-sm"><?php echo $text_checkout; ?></span></a></li>
 				</ul>
 				</div>
@@ -194,6 +179,13 @@
 	<div class="container">
 		<div class="menu-shadow">
 			<?php if ($categories) {  echo $categories; } ?>
+
+			<ul class="menu">
+				<li style="float: right;background-color: #F69124;">
+					<a href="http://www.aeroportasonline.com.br/" target="_blank">Loja Online</a>
+				</li>
+			</ul>
+
 			<div class="clear"></div>
 		</div>
 	</div>
