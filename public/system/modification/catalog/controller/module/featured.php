@@ -29,6 +29,7 @@ class ControllerModuleFeatured extends Controller {
 
 			$data['text_sale'] = $this->language->get('text_sale');
 			
+		$data['featuredname'] = $setting['name'];
 
 		$this->load->model('catalog/product');
 

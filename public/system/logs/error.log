@@ -167,3 +167,108 @@
 2016-02-26 6:25:18 - PHP Warning:  ftp_mkdir(): Can't create directory: File exists in /srv/httpd/aeroportas.com.br/aeroportas/public/admin/controller/extension/installer.php on line 331
 2016-02-26 6:25:18 - PHP Warning:  ftp_mkdir(): Can't create directory: File exists in /srv/httpd/aeroportas.com.br/aeroportas/public/admin/controller/extension/installer.php on line 331
 2016-02-26 6:27:13 - PHP Notice:  Undefined index: module_id in /srv/httpd/aeroportas.com.br/aeroportas/public/admin/controller/module/anylist.php on line 16
+2016-02-26 6:35:07 - PHP Warning:  array_slice() expects parameter 1 to be array, string given in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 49
+2016-02-26 6:35:07 - PHP Warning:  Invalid argument supplied for foreach() in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 51
+2016-02-26 6:35:07 - PHP Warning:  array_slice() expects parameter 1 to be array, string given in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 49
+2016-02-26 6:35:07 - PHP Warning:  Invalid argument supplied for foreach() in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 51
+2016-02-26 6:35:35 - PHP Warning:  array_slice() expects parameter 1 to be array, string given in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 49
+2016-02-26 6:35:35 - PHP Warning:  Invalid argument supplied for foreach() in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 51
+2016-02-26 6:35:36 - PHP Warning:  array_slice() expects parameter 1 to be array, string given in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 49
+2016-02-26 6:35:36 - PHP Warning:  Invalid argument supplied for foreach() in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 51
+2016-02-26 6:36:15 - PHP Warning:  array_slice() expects parameter 1 to be array, string given in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 49
+2016-02-26 6:36:15 - PHP Warning:  Invalid argument supplied for foreach() in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 51
+2016-02-26 6:36:50 - PHP Warning:  array_slice() expects parameter 1 to be array, string given in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 49
+2016-02-26 6:36:50 - PHP Warning:  Invalid argument supplied for foreach() in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 51
+2016-02-26 6:36:50 - PHP Warning:  array_slice() expects parameter 1 to be array, string given in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 49
+2016-02-26 6:36:50 - PHP Warning:  Invalid argument supplied for foreach() in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 51
+2016-02-26 6:36:59 - PHP Warning:  array_slice() expects parameter 1 to be array, string given in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 49
+2016-02-26 6:36:59 - PHP Warning:  Invalid argument supplied for foreach() in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 51
+2016-02-26 6:37:00 - PHP Warning:  array_slice() expects parameter 1 to be array, string given in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 49
+2016-02-26 6:37:00 - PHP Warning:  Invalid argument supplied for foreach() in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 51
+2016-02-26 6:37:47 - PHP Warning:  array_slice() expects parameter 1 to be array, string given in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 49
+2016-02-26 6:37:47 - PHP Warning:  Invalid argument supplied for foreach() in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 51
+2016-02-26 6:37:47 - PHP Warning:  array_slice() expects parameter 1 to be array, string given in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 49
+2016-02-26 6:37:47 - PHP Warning:  Invalid argument supplied for foreach() in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 51
+2016-02-26 6:38:39 - PHP Warning:  Invalid argument supplied for foreach() in /srv/httpd/aeroportas.com.br/aeroportas/public/admin/controller/module/featured.php on line 124
+2016-02-26 6:52:56 - PHP Notice:  Undefined variable: module in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 18
+2016-02-26 6:52:57 - PHP Notice:  Undefined variable: module in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 18
+2016-02-26 6:52:57 - PHP Notice:  Undefined variable: module in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 18
+2016-02-26 6:53:14 - PHP Notice:  Undefined variable: modules in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 18
+2016-02-26 6:53:14 - PHP Notice:  Undefined variable: modules in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 18
+2016-02-26 7:07:23 - PHP Notice:  Undefined property: Loader::$load in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/view/theme/theme504/template/common/home.tpl on line 7
+2016-02-26 7:07:23 - PHP Notice:  Undefined property: Loader::$load in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/view/theme/theme504/template/common/home.tpl on line 7
+2016-02-26 7:07:32 - PHP Notice:  Undefined property: Loader::$load in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/view/theme/theme504/template/common/home.tpl on line 7
+2016-02-26 7:07:36 - PHP Notice:  Undefined property: Loader::$load in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/view/theme/theme504/template/common/home.tpl on line 7
+2016-02-26 7:07:40 - PHP Notice:  Undefined property: Loader::$load in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/view/theme/theme504/template/common/home.tpl on line 7
+2016-02-26 7:07:52 - PHP Notice:  Undefined property: Loader::$load in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/view/theme/theme504/template/common/home.tpl on line 7
+2016-02-26 7:13:49 - PHP Notice:  Undefined index: title in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 10
+2016-02-26 7:13:49 - PHP Notice:  Undefined index: title in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 10
+2016-02-26 7:13:49 - PHP Notice:  Undefined index: title in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 10
+2016-02-26 7:13:49 - PHP Notice:  Undefined index: title in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 10
+2016-02-26 7:13:49 - PHP Notice:  Undefined index: title in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 10
+2016-02-26 7:13:49 - PHP Notice:  Undefined index: title in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 10
+2016-02-26 7:13:49 - PHP Notice:  Undefined index: title in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 10
+2016-02-26 7:13:49 - PHP Notice:  Undefined index: title in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 10
+2016-02-26 7:13:49 - PHP Notice:  Undefined index: title in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 10
+2016-02-26 7:15:20 - PHP Notice:  Undefined index: list_id in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 8
+2016-02-26 7:15:20 - PHP Notice:  Undefined index: list_id in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 8
+2016-02-26 7:15:21 - PHP Notice:  Undefined index: list_id in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 8
+2016-02-26 7:16:08 - PHP Warning:  Missing argument 1 for ModelExtensionModule::getModule(), called in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 8 and defined in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/model/extension/module.php on line 3
+2016-02-26 7:16:08 - PHP Notice:  Undefined variable: module_id in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/model/extension/module.php on line 4
+2016-02-26 7:16:08 - PHP Warning:  Missing argument 1 for ModelExtensionModule::getModule(), called in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 8 and defined in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/model/extension/module.php on line 3
+2016-02-26 7:16:08 - PHP Notice:  Undefined variable: module_id in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/model/extension/module.php on line 4
+2016-02-26 7:16:23 - PHP Warning:  Missing argument 1 for ModelExtensionModule::getModule(), called in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 8 and defined in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/model/extension/module.php on line 3
+2016-02-26 7:16:23 - PHP Notice:  Undefined variable: module_id in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/model/extension/module.php on line 4
+2016-02-26 7:16:23 - PHP Warning:  Missing argument 1 for ModelExtensionModule::getModule(), called in /srv/httpd/aeroportas.com.br/aeroportas/public/system/modification/catalog/controller/module/featured.php on line 8 and defined in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/model/extension/module.php on line 3
+2016-02-26 7:16:23 - PHP Notice:  Undefined variable: module_id in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/model/extension/module.php on line 4
+2016-02-26 7:20:40 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:20:40 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:20:40 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:20:40 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:20:40 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:20:40 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:22:55 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:22:55 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:22:56 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:24:31 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:24:31 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:24:31 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:25:07 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:25:07 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:25:07 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:25:19 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:25:19 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:25:19 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:25:26 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:25:26 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:25:26 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:26:48 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:26:48 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:26:48 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:30:44 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:30:44 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:30:44 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:31:04 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:31:04 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:31:04 - PHP Notice:  Undefined variable: textohomefeatured in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 2
+2016-02-26 7:34:23 - PHP Notice:  Undefined variable: module_info in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 10
+2016-02-26 7:36:04 - PHP Notice:  Undefined variable: module_info in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 10
+2016-02-26 7:36:10 - PHP Notice:  Undefined variable: module_info in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/module/featured.tpl on line 10
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: text_shopping_cart in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/cart.tpl on line 5
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: maintenance in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 92
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: informations in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 94
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: text_contact in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 102
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: return in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 103
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: text_return in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 103
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: sitemap in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 104
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: text_sitemap in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 104
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: manufacturer in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 108
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: text_manufacturer in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 108
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: voucher in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 109
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: text_voucher in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 109
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: affiliate in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 110
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: text_affiliate in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 110
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: special in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 111
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: text_special in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 111
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: newsletter in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 115
+2016-02-26 7:38:18 - PHP Notice:  Undefined variable: text_newsletter in /srv/httpd/aeroportas.com.br/aeroportas/public/catalog/view/theme/theme504/template/common/header.tpl on line 115

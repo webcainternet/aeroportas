@@ -7,7 +7,7 @@
         <div class="row">
             <div class="span12">
                 <div class="shipping">
-                    <p><span style="font-weight: bold; margin-right: 20px;">ENTREGA RÁPIDA </span> Aero Portas - lorem ipsum dolor sit amet mauris accumsan vitate odio tellus</p>
+                    <p><span style="font-weight: bold; margin-right: 20px;">ENTREGA RÁPIDA </span> Aero Portas - Solicite online o seu orçamento</p>
                     <a href="#" class="buttonss">Saiba Mais</a>
                 </div>
             </div>
