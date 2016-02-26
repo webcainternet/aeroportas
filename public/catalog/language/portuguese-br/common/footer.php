@@ -14,4 +14,4 @@ $_['text_account']      = 'Minha Conta';
 $_['text_order']        = 'Histórico de Pedidos';
 $_['text_wishlist']     = 'Lista de Desejos';
 $_['text_newsletter']   = 'Meu Informativo';
-$_['text_powered']      = 'Desenvolvido por <a href="http://lojavirtual.digital" target="_blank">LojaVirtual.digital</a> - %s &copy; %s';
+$_['text_powered']      = 'Desenvolvido por <a href="http://4wm.com.br/" target="_blank">4WM</a> - %s &copy; %s';
