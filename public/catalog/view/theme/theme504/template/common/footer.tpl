@@ -5,10 +5,9 @@
 <div class="shipping-wrap">
     <div class="container">
         <div class="row">
-            <div class="span12">
+            <div class="span12" style="text-align: center;">
                 <div class="shipping">
-                    <p><span style="font-weight: bold; margin-right: 20px;">ENTREGA RÁPIDA </span> Aero Portas - Solicite online o seu orçamento</p>
-                    <a href="#" class="buttonss">Saiba Mais</a>
+                    <p><span style="font-weight: bold; margin-right: 20px;">ENTREGA RÁPIDA </span> Aero Portas - Conheça nossa loja online. <a href="http://aeroportasonline.com.br" target="_blank">Clique aqui e saiba mais!</a></p>
                 </div>
             </div>
         </div>
@@ -24,11 +23,9 @@
 			<div class="footer_box">
 				<h5>Suporte</h5>
 				<ul class="list-unstyled">
-				<li><a href="/garantia">Garantia de Produtos</a></li>
-				<li><a href="/privacidade">Políticas de Privacidade</a></li>
-				<li><a href="/entrega">Políticas de Entrega</a></li>
-				<li><a href="/troca">Políticas de Troca</a></li>
-				<li><a href="/termos">Termos e Condições</a></li>
+				<li><a href="/garantia-de-produtos">Garantia de Produtos</a></li>
+				<li><a href="/política-de-entrega">Políticas de Entrega</a></li>
+				<li><a href="/politica-de-troca">Políticas de Troca</a></li>
 				<li><a href="/index.php?route=account/return/add">Devoluções</a></li>
 				</ul>
 			</div>
@@ -38,7 +35,7 @@
 			<div class="footer_box">
 				<h5>Institucional</h5>
 				<ul class="list-unstyled">
-				<li><a href="/sobre">Sobre nós</a></li>
+				<li><a href="/sobre-nos">Sobre nós</a></li>
 				<li><a href="/lojas">Nossas Lojas</a></li>
 				<li><a href="/index.php?route=information/contact">Contate-nos</a></li>
 				<li><a href="/index.php?route=information/sitemap">Mapa da Loja</a></li>
