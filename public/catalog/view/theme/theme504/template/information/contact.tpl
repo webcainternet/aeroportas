@@ -18,37 +18,39 @@
       <h3><?php echo $text_location; ?></h3>
       <div class="panel panel-default">
         <div class="panel-body">
-          <div class="row">
-            <?php if ($image) { ?>
-            <div class="col-sm-3"><img src="<?php echo $image; ?>" alt="<?php echo $store; ?>" title="<?php echo $store; ?>" class="img-thumbnail" /></div>
-            <?php } ?>
-            <div class="col-sm-3"><strong><?php echo $store; ?></strong><br />
-              <address>
-              <?php echo $address; ?>
-              </address>
-              <?php if ($geocode) { ?>
-              <a href="https://maps.google.com/maps?q=<?php echo urlencode($geocode); ?>&hl=en&t=m&z=15" target="_blank" class="btn btn-info"><i class="fa fa-map-marker"></i> <?php echo $button_map; ?></a>
-              <?php } ?>
-            </div>
-            <div class="col-sm-3"><strong><?php echo $text_telephone; ?></strong><br>
-              <?php echo $telephone; ?><br />
-              <br />
-              <?php if ($fax) { ?>
-              <strong><?php echo $text_fax; ?></strong><br>
-              <?php echo $fax; ?>
-              <?php } ?>
-            </div>
-            <div class="col-sm-3">
-              <?php if ($open) { ?>
-              <strong><?php echo $text_open; ?></strong><br />
-              <?php echo $open; ?><br />
-              <br />
-              <?php } ?>
-              <?php if ($comment) { ?>
-              <strong><?php echo $text_comment; ?></strong><br />
-              <?php echo $comment; ?>
-              <?php } ?>
-            </div>
+          <div style="margin-bottom: 15px;">
+            <div style="font-weight: bold;">Loja 1</div>
+            <div>Av. Bandeirantes, 4265, Aeroporto, SP</div>
+            <div>bandeirantes@aeroportas.com.br</div>
+            <div>(11) 5096-1803</div>
+          </div>
+
+          <div style="margin-bottom: 15px;">
+            <div style="font-weight: bold;">Loja 2</div>
+            <div>Rua do Gasômetro, 360, Brás, SP</div>
+            <div>gasometro@aeroportas.com.br</div>
+            <div>(11) 3313-8942</div>
+          </div>
+
+          <div style="margin-bottom: 15px;">
+            <div style="font-weight: bold;">Loja 3</div>
+            <div>Av. Salgado Filho, 1772, Guarulhos, SP</div>
+            <div>guarulhos@aeroportas.com.br</div>
+            <div>(11) 2382-5185</div>
+          </div>
+
+          <div style="margin-bottom: 15px;">
+            <div style="font-weight: bold;">Loja 4</div>
+            <div>Rua do Gasômetro, 326, Brás, SP</div>
+            <div>gasometro326@aeroportas.com.br</div>
+            <div>(11) 3227-9747</div>
+          </div>
+
+          <div style="margin-bottom: 15px;">
+            <div style="font-weight: bold;">Loja 5</div>
+            <div>Rua do Gasômetro, 218, Brás, SP</div>
+            <div>gasometro218@aeroportas.com.br</div>
+            <div>(11) 3227-1226</div>
           </div>
         </div>
       </div>
