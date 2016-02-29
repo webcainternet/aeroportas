@@ -616,14 +616,16 @@ function getChar(event) {
 				}
 				
 				if (json['success']) {
-					$('.breadcrumb').after('<div class="alert alert-success">' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+					//$('.breadcrumb').after('<div class="alert alert-success">' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
 					
 					
 					
 					<!--$('html, body').animate({ scrollTop: 0 }, 'slow');-->
 					
-					$('#cart').load('index.php?route=common/cart/info #cart');
-					setTimeout(function() {$('.alert').fadeOut(1000)},3000)
+					//$('#cart').load('index.php?route=common/cart/info #cart');
+					//setTimeout(function() {$('.alert').fadeOut(1000)},3000)
+
+					window.location='index.php?route=checkout/cart';
 				}
 			}
 		});
