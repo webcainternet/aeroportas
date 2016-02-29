@@ -12,40 +12,40 @@
 		<?php } ?>
 
 <div>
-	<div class="col-sm-12" style="margin-top: 15px;">
+	<div class="col-sm-12" style="margin-top: 10px;">
 		<div class="telefones">
 			<div class="banner-home-loja">Loja 1</div>
-			<h1>Av. Bandeirantes, 4265</h1>
-			<div class="banner-home-titulo">Aeroporto</div>
-			<h2>11 5096-1803</h2>
+			<div class="banner-home-endereco">Av. Bandeirantes, 4265, Aeroporto, SP</div>
+			<div class="banner-home-titulo">bandeirantes@aeroportas.com.br</div>
+			<div class="banner-home-telefone">(11) 5096-1803</div>
 		</div>
 
 		<div class="telefones">
 			<div class="banner-home-loja">Loja 2</div>
-			<h1>Rua do Gasômetro, 360</h1>
-			<div class="banner-home-titulo">Centro</div>
-			<h2>11 3313-8942</h2>
+			<div class="banner-home-endereco">Rua do Gasômetro, 360, Brás, SP</div>
+			<div class="banner-home-titulo">gasometro@aeroportas.com.br</div>
+			<div class="banner-home-telefone">(11) 3313-8942</div>
 		</div>
 
 		<div class="telefones">
 			<div class="banner-home-loja">Loja 3</div>
-			<h1>Av. Salgado Filho</h1>
-			<div class="banner-home-titulo">Guarulhos</div>
-			<h2>11 2382-5185</h2>
+			<div class="banner-home-endereco">Av. Salgado Filho, 1772, Guarulhos, SP</div>
+			<div class="banner-home-titulo">guarulhos@aeroportas.com.br</div>
+			<div class="banner-home-telefone">(11) 2382-5185</div>
 		</div>
 
 		<div class="telefones">
 			<div class="banner-home-loja">Loja 4</div>
-			<h1>Rua do Gasômetro, 326</h1>
-			<div class="banner-home-titulo">Centro</div>
-			<h2>11 3227-9747</h2>
+			<div class="banner-home-endereco">Rua do Gasômetro, 326, Brás, SP</div>
+			<div class="banner-home-titulo">gasometro326@aeroportas.com.br</div>
+			<div class="banner-home-telefone">(11) 3227-9747</div>
 		</div>
 
 		<div class="telefones" style="margin-right: 0px;">
 			<div class="banner-home-loja">Loja 5</div>
-			<h1>Rua do Gasômetro, 218</h1>
-			<div class="banner-home-titulo">Centro</div>
-			<h2>11 3227-1226</h2>
+			<div class="banner-home-endereco">Rua do Gasômetro, 218, Brás, SP</div>
+			<div class="banner-home-titulo">gasometro218@aeroportas.com.br</div>
+			<div class="banner-home-telefone">(11) 3227-1226</div>
 		</div>
 	</div>
 </div>
