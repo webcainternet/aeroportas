@@ -625,7 +625,7 @@ function getChar(event) {
 					//$('#cart').load('index.php?route=common/cart/info #cart');
 					//setTimeout(function() {$('.alert').fadeOut(1000)},3000)
 
-					window.location='index.php?route=checkout/cart';
+					window.location='index.php?route=checkout/simplecheckout';
 				}
 			}
 		});
