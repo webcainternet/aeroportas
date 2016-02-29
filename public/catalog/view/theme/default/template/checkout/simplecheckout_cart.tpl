@@ -1,4 +1,10 @@
-<div class="simplecheckout-block" id="simplecheckout_cart" <?php echo $hide ? 'data-hide="true"' : '' ?> <?php echo $display_error && $has_error ? 'data-error="true"' : '' ?>>
+<div class="simplecheckout-block" id="simplecheckout_cart" <?php echo $hide ? 'data-hide="true"' : '' ?> <?php echo $display_error && $has_error ? 'data-error="true"' : '' ?> style="margin-top: -40px;">
+
+    <span class="inputs buttons" style="float: right;">
+        <a href="/" class="button btn-primary button_oc btn">
+        <span style="padding: 0px 15px;">Continuar na loja</span></a>
+    </span>
+
 <?php if ($display_header) { ?>
     <div class="checkout-heading"><?php echo $text_cart ?></div>
 <?php } ?>
