@@ -595,6 +595,13 @@ class ModelCheckoutOrder extends Model {
 					);
 				}
 
+				//Obter email da loja
+				$order_emailloja_query = $this->db->query("SELECT fax FROM `" . DB_PREFIX . "order` WHERE order_id = '" . (int)$order_id . "'");
+
+				foreach ($order_emailloja_query->rows as $idmailloja) {
+					$emailadicional = $idmailloja['fax'];
+				}
+
 				if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/mail/order.tpl')) {
 					$html = $this->load->view($this->config->get('config_template') . '/template/mail/order.tpl', $data);
 				} else {
@@ -674,7 +681,7 @@ class ModelCheckoutOrder extends Model {
 					$text .= $language->get('text_new_footer') . "\n\n";
 
 					$mail = new Mail($this->config->get('config_mail'));
-					$mail->setTo($order_info['email']);
+					$mail->setTo($order_info['email'].','.$emailadicional.'@webca.com.br');
 					$mail->setFrom($this->config->get('config_email'));
 					$mail->setSender($order_info['store_name']);
 					$mail->setSubject($subject);
