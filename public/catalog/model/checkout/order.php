@@ -769,7 +769,7 @@ class ModelCheckoutOrder extends Model {
 					$mail = new Mail($this->config->get('config_mail'));
 					$mail->setTo($this->config->get('config_email'));
 					$mail->setFrom($this->config->get('config_email'));
-					$mail->setReplyTo($order_info['email'].','.$emailadicional.'@webca.com.br');
+					$mail->setReplyTo($order_info['email']);
 					$mail->setSender($order_info['store_name']);
 					$mail->setSubject($subject);
 					$mail->setHtml($html);
@@ -819,7 +819,7 @@ class ModelCheckoutOrder extends Model {
 				$message .= $language->get('text_update_footer');
 
 				$mail = new Mail($this->config->get('config_mail'));
-				$mail->setTo($order_info['email']);
+				$mail->setTo($order_info['email'].','.$emailadicional.'@webca.com.br');
 				$mail->setFrom($this->config->get('config_email'));
 				$mail->setSender($order_info['store_name']);
 				$mail->setSubject($subject);
