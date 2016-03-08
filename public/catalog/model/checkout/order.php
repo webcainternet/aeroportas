@@ -671,26 +671,10 @@ class ModelCheckoutOrder extends Model {
 						$text .= $order_info['comment'] . "\n\n";
 					}
 
-					$text .= $language->get('text_new_footer') . "\n\n";
-
-
-					//Obter email da loja
-					$order_emailloja_query = $this->db->query("SELECT fax FROM `" . DB_PREFIX . "order` WHERE order_id = '" . (int)$order_id . "'");
-
-					$arrmail[1] = 'gasometro@aeroportas.com.br';
-					$arrmail[2] = 'gasometro326@aeroportas.com.br';
-					$arrmail[3] = 'gasometro218@aeroportas.com.br';
-					$arrmail[4] = 'guarulhos@aeroportas.com.br';
-					$arrmail[5] = 'bandeirantes@aeroportas.com.br';
-
-
-					foreach ($order_emailloja_query->rows as $idmailloja) {
-						$emailadicional = $arrmail[$idmailloja['fax']];
-					}
-
+					$text .= $language->get('text_new_footer') . "\n\n";				
 
 					$mail = new Mail($this->config->get('config_mail'));
-					$mail->setTo($order_info['email'].','.$emailadicional);
+					$mail->setTo($order_info['email']);
 					$mail->setFrom($this->config->get('config_email'));
 					$mail->setSender($order_info['store_name']);
 					$mail->setSubject($subject);
@@ -775,8 +759,23 @@ class ModelCheckoutOrder extends Model {
 						$text .= $order_info['comment'] . "\n\n";
 					}
 
+					//Obter email da loja
+					$order_emailloja_query = $this->db->query("SELECT fax FROM `" . DB_PREFIX . "order` WHERE order_id = '" . (int)$order_id . "'");
+
+					$arrmail[1] = 'gasometro@aeroportas.com.br';
+					$arrmail[2] = 'gasometro326@aeroportas.com.br';
+					$arrmail[3] = 'gasometro218@aeroportas.com.br';
+					$arrmail[4] = 'guarulhos@aeroportas.com.br';
+					$arrmail[5] = 'bandeirantes@aeroportas.com.br';
+
+
+					foreach ($order_emailloja_query->rows as $idmailloja) {
+						$emailadicional = $arrmail[$idmailloja['fax']];
+					}
+
+
 					$mail = new Mail($this->config->get('config_mail'));
-					$mail->setTo($this->config->get('config_email'));
+					$mail->setTo($this->config->get('config_email').','.$emailadicional);
 					$mail->setFrom($this->config->get('config_email'));
 					$mail->setReplyTo($order_info['email']);
 					$mail->setSender($order_info['store_name']);
