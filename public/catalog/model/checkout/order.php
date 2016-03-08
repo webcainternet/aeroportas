@@ -595,13 +595,6 @@ class ModelCheckoutOrder extends Model {
 					);
 				}
 
-				//Obter email da loja
-				$order_emailloja_query = $this->db->query("SELECT fax FROM `" . DB_PREFIX . "order` WHERE order_id = '" . (int)$order_id . "'");
-
-				foreach ($order_emailloja_query->rows as $idmailloja) {
-					$emailadicional = $idmailloja['fax'];
-				}
-
 				if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/mail/order.tpl')) {
 					$html = $this->load->view($this->config->get('config_template') . '/template/mail/order.tpl', $data);
 				} else {
@@ -814,6 +807,13 @@ class ModelCheckoutOrder extends Model {
 				if ($notify && $comment) {
 					$message .= $language->get('text_update_comment') . "\n\n";
 					$message .= strip_tags($comment) . "\n\n";
+				}
+
+				//Obter email da loja
+				$order_emailloja_query = $this->db->query("SELECT fax FROM `" . DB_PREFIX . "order` WHERE order_id = '" . (int)$order_id . "'");
+
+				foreach ($order_emailloja_query->rows as $idmailloja) {
+					$emailadicional = $idmailloja['fax'];
 				}
 
 				$message .= $language->get('text_update_footer');
