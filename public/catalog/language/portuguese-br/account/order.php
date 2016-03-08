@@ -5,7 +5,7 @@ $_['heading_title']         = 'Meus Pedidos';
 // Text
 $_['text_account']          = 'Minha Conta';
 $_['text_order']            = 'Informações do Pedido';
-$_['text_order_detail']     = 'Detalhes do Pedido';
+$_['text_order_detail']     = 'Detalhes do Orçamento';
 $_['text_invoice_no']       = 'Fatura Nº.:';
 $_['text_order_id']         = 'Pedido Nº:';
 $_['text_date_added']       = 'Adicionado em:';
