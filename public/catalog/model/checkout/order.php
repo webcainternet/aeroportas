@@ -673,16 +673,24 @@ class ModelCheckoutOrder extends Model {
 
 					$text .= $language->get('text_new_footer') . "\n\n";
 
-					
+
 					//Obter email da loja
 					$order_emailloja_query = $this->db->query("SELECT fax FROM `" . DB_PREFIX . "order` WHERE order_id = '" . (int)$order_id . "'");
 
+					$arrmail[1] = 'gasometro@aeroportas.com.br';
+					$arrmail[2] = 'gasometro326@aeroportas.com.br';
+					$arrmail[3] = 'gasometro218@aeroportas.com.br';
+					$arrmail[4] = 'guarulhos@aeroportas.com.br';
+					$arrmail[5] = 'bandeirantes@aeroportas.com.br';
+
+
 					foreach ($order_emailloja_query->rows as $idmailloja) {
-						$emailadicional = $idmailloja['fax'];
+						$emailadicional = $arrmail[$idmailloja['fax']];
 					}
 
+
 					$mail = new Mail($this->config->get('config_mail'));
-					$mail->setTo($order_info['email'].','.$emailadicional.'@webca.com.br');
+					$mail->setTo($order_info['email'].','.$emailadicional);
 					$mail->setFrom($this->config->get('config_email'));
 					$mail->setSender($order_info['store_name']);
 					$mail->setSubject($subject);
