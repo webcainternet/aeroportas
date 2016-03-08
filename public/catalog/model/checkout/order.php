@@ -766,7 +766,7 @@ class ModelCheckoutOrder extends Model {
 					$arrmail[2] = 'gasometro326@aeroportas.com.br';
 					$arrmail[3] = 'gasometro218@aeroportas.com.br';
 					$arrmail[4] = 'guarulhos@aeroportas.com.br';
-					$arrmail[5] = 'bandeirantes@webca.com.br';
+					$arrmail[5] = 'bandeirantes@aeroportas.com.br';
 
 
 					foreach ($order_emailloja_query->rows as $idmailloja) {
