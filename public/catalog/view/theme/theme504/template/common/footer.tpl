@@ -1,13 +1,20 @@
 </div>
 
 </div>
-
+<style type="text/css">
+.textorodape {
+	color: #F69124 !important;
+}
+.textorodape:hover {
+	text-decoration: underline;
+}
+</style>
 <div class="shipping-wrap">
     <div class="container">
         <div class="row">
             <div class="span12" style="text-align: center;">
                 <div class="shipping">
-                    <p><span style="font-weight: bold; margin-right: 20px;">ENTREGA RÁPIDA </span> Aero Portas - Conheça nossa loja online. <a href="http://aeroportasonline.com.br" target="_blank">Clique aqui e saiba mais!</a></p>
+                    <p><span style="font-weight: bold; margin-right: 20px;">COMODIDADE: </span> Conheça nossa loja online. <a class="textorodape" href="http://aeroportasonline.com.br" target="_blank">Clique aqui</a> e saiba mais!</p>
                 </div>
             </div>
         </div>
