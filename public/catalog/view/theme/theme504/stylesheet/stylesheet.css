@@ -3087,3 +3087,16 @@ label{
 .col-lg-3 {
 	width: 24.8% !important;
 }
+
+
+
+.product-thumb .description {
+    margin-bottom: 15px;
+    line-height: 24px;
+    font-size: 13px;
+    max-height: 50px;
+    overflow: hidden;
+}
+.product-thumb .caption {
+    max-height: 110px;
+}

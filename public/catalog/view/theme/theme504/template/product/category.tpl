@@ -1,17 +1,5 @@
 <?php echo $header; ?>
 
-<style type="text/css">
-.product-thumb .description {
-    margin-bottom: 15px;
-    line-height: 24px;
-    font-size: 13px;
-    max-height: 50px;
-    overflow: hidden;
-}
-.product-thumb .caption {
-    max-height: 110px;
-}
-</style>
 <div class="container">
   <ul class="breadcrumb">
 	<?php foreach ($breadcrumbs as $breadcrumb) { ?>
