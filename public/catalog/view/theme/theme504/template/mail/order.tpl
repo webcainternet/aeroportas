@@ -27,6 +27,29 @@
           <b><?php echo $text_date_added; ?></b> <?php echo $date_added; ?><br />
           <b><?php echo $text_payment_method; ?></b> <?php echo $payment_method; ?><br /></td>
         <td style="font-size: 12px;	border-right: 1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD; text-align: left; padding: 7px;">
+
+<?php
+$mysqli = new mysqli(DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+  if (mysqli_connect_errno()) { printf("Connect failed: %s\n", mysqli_connect_error()); exit(); }
+
+  //Consulta
+  $sql = "select order_id, firstname from oc_order";
+
+  if ($result = $mysqli->query($sql)) { 
+
+    $row_cnt = $result->num_rows;
+
+    if ($row_cnt > 0) {
+
+          while($obj = $result->fetch_object()){
+            
+              $name = $obj->firstname;
+          }
+    }
+}
+?>
+
+
           <b>Nome:</b> <?php echo $name; ?><br />
           <b><?php echo $text_email; ?></b> <?php echo $email; ?><br />
           <b><?php echo $text_telephone; ?></b> <?php echo $telephone; ?><br />
