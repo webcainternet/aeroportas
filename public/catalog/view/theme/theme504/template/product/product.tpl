@@ -308,7 +308,8 @@
 
 					<ul class="product-buttons">
 						<li><button class="btn btn-icon" onclick="wishlist.add('<?php echo $product_id; ?>');"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm"><?php echo $button_wishlist; ?></span></button></li>
-						<li><a href="http://aeroportasonline.com.br/" target="_blank"><button type="button" class="btn btn-icon"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm">Loja Online</span></button></a></li>
+						<li><button type="button" class="btn btn-icon" onclick="compare.add('<?php echo $product_id; ?>');"><i class="fa fa-exchange"></i> <span class="hidden-xs hidden-sm"><?php echo $button_compare; ?></span></button></li>
+						<?php /* <li><a href="http://aeroportasonline.com.br/" target="_blank"><button type="button" class="btn btn-icon"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm">Loja Online</span></button></a></li> */ ?>
 					</ul>					
 
 					<?php if ($tags) { ?>
