@@ -161,7 +161,7 @@
 var google_tag_params = {
 ecomm_prodid: '1',
 ecomm_pagetype: 'aeroportas',
-ecomm_totalvalue: '0',
+ecomm_totalvalue: '1',
 };
 </script>
 <script type="text/javascript">
