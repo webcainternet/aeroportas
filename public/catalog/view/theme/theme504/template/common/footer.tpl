@@ -159,9 +159,9 @@
 <!-- Código do Google para tag de remarketing -->
 <script type="text/javascript">
 var google_tag_params = {
-ecomm_prodid: 'REPLACE_WITH_VALUE',
-ecomm_pagetype: 'REPLACE_WITH_VALUE',
-ecomm_totalvalue: 'REPLACE_WITH_VALUE',
+ecomm_prodid: '1',
+ecomm_pagetype: 'aeroportas',
+ecomm_totalvalue: '0',
 };
 </script>
 <script type="text/javascript">
