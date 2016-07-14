@@ -228,13 +228,14 @@
 					<div class="banner-home-titulo">gasometro326@aeroportas.com.br</div>
 					<div class="banner-home-telefone">(11) 3227-9747</div>
 				</div>
-
+<?php /*
 				<div class="telefones" style="margin-right: 0px;">
 					<div class="banner-home-loja">Loja 5</div>
 					<div class="banner-home-endereco">Rua do Gasômetro, 218, Brás, SP</div>
 					<div class="banner-home-titulo">gasometro218@aeroportas.com.br</div>
 					<div class="banner-home-telefone">(11) 3227-1226</div>
 				</div>
+*/ ?>
 			</div>
 		</div>
 	</div>

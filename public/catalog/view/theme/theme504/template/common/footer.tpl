@@ -70,11 +70,12 @@
 				<li><a href="#">Loja 4: Rua do Gasômetro, 326<br>
 				Brás - São Paulo - SP<br>
 				(11) 3227-9747</a></li>
-
+<?php /*
 				<li><a href="#">Loja 5: Rua do Gasômetro, 218<br>
 				Brás - São Paulo - SP<br>
 				(11)3227-1226 / 3227-1213</a></li>
 				</ul>
+*/ ?>
 			</div>
 		</div>
 
