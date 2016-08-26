@@ -1,0 +1,63 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^([a-z]{6})/([a-z]{2,10})\.html$ contenthistory/index\.php?id=$1-$2&%{QUERY_STRING} [L]
+RewriteCond $1 !^(webmail|resultado_busca\.php|lojas\.php|empresa\.php|promocoes\.php|localizacao\.php|contato\.php|piso-estruturado\.php|piso-engenheirado\.php|piso-macico\.php|portas-camarao\.php|porta-articulada\.php|portas-pivotantes\.php|portas-balcao\.php|portas-correr-veneziana\.php|portas-correr-praiana\.php|portas-pantograficas\.php|sistema-correr\.php|batente-comum\.php|batente-camarao\.php|batente-portais\.php|batente-duplo\.php|batente-correr\.php|guarnicao\.php|janela-abrir\.php|janela-correr\.php|janela-pantografica\.php|vitro-basculante\.php|vitro-capela\.php|vitro-correr\.php|vitro-maxar\.php|vitro-pantografico\.php|puxadores\.php|fechaduras\.php|dobradicas\.php|roldana\.php|ferragens\.php|fazer-orcamento\.php|lista-produtos\.php|politica-de-entrega\.php|politica-de-troca\.php|garantia-produto\.php|portas-solidas\.php|portas-decorativas\.php|portas-frisadas\.php|portas-sarrafeadas\.php|portas-macicas\.php|portais\.php|piso-rodape\.php|piso-deck\.php|espuma\.php|verniz\.php|cola\.php|removedor\.php|impermeabilizante\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\?*$ index.php?_route_=$1 [L,QSA]
+
+RedirectMatch 301 /webmail https://novanet.inetbr.net:2096/
+RedirectMatch 301 /resultado_busca.php http://aeroportas.com.br
+RedirectMatch 301 /lojas.php http://aeroportas.com.br/lojas
+RedirectMatch 301 /empresa.php http://aeroportas.com.br/sobre-nos
+RedirectMatch 301 /promocoes.php http://aeroportas.com.br/promocoes
+RedirectMatch 301 /localizacao.php http://aeroportas.com.br/lojas
+RedirectMatch 301 /contato.php http://aeroportas.com.br/index.php?route=information/contact
+RedirectMatch 301 /piso-estruturado.php http://aeroportas.com.br/index.php?route=product/category\&path=84
+RedirectMatch 301 /piso-engenheirado.php http://aeroportas.com.br/index.php?route=product/category\&path=85
+RedirectMatch 301 /piso-macico.php http://aeroportas.com.br/index.php?route=product/category\&path=86
+RedirectMatch 301 /portas-camarao.php http://aeroportas.com.br/index.php?route=product/category\&path=101
+RedirectMatch 301 /porta-articulada.php http://aeroportas.com.br/index.php?route=product/category\&path=104
+RedirectMatch 301 /portas-pivotantes.php http://aeroportas.com.br/index.php?route=product/category\&path=102
+RedirectMatch 301 /portas-balcao.php http://aeroportas.com.br/index.php?route=product/category\&path=105
+RedirectMatch 301 /portas-correr-veneziana.php http://aeroportas.com.br/index.php?route=product/search\&search=porta%20correr%20veneziana
+RedirectMatch 301 /portas-correr-praiana.php http://aeroportas.com.br/index.php?route=product/search\&search=porta%20correr%20praiana
+RedirectMatch 301 /portas-pantograficas.php http://aeroportas.com.br/index.php?route=product/search\&search=porta%20pantograficas
+RedirectMatch 301 /sistema-correr.php http://aeroportas.com.br/index.php?route=product/search\&search=correr
+RedirectMatch 301 /batente-comum.php http://aeroportas.com.br/index.php?route=product/category\&path=80
+RedirectMatch 301 /batente-camarao.php http://aeroportas.com.br/index.php?route=product/category\&path=80
+RedirectMatch 301 /batente-portais.php http://aeroportas.com.br/index.php?route=product/category\&path=80
+RedirectMatch 301 /batente-duplo.php http://aeroportas.com.br/index.php?route=product/category\&path=80
+RedirectMatch 301 /batente-correr.php http://aeroportas.com.br/index.php?route=product/category\&path=80
+RedirectMatch 301 /guarnicao.php http://aeroportas.com.br/index.php?route=product/category\&path=81
+RedirectMatch 301 /janela-abrir.php http://aeroportas.com.br/index.php?route=product/category\&path=47
+RedirectMatch 301 /janela-correr.php http://aeroportas.com.br/index.php?route=product/category\&path=47
+RedirectMatch 301 /janela-pantografica.php http://aeroportas.com.br/index.php?route=product/category\&path=47
+RedirectMatch 301 /vitro-basculante.php http://aeroportas.com.br/index.php?route=product/category\&path=95
+RedirectMatch 301 /vitro-capela.php http://aeroportas.com.br/index.php?route=product/category\&path=95
+RedirectMatch 301 /vitro-correr.php http://aeroportas.com.br/index.php?route=product/category\&path=95
+RedirectMatch 301 /vitro-maxar.php http://aeroportas.com.br/index.php?route=product/category\&path=95
+RedirectMatch 301 /vitro-pantografico.php http://aeroportas.com.br/index.php?route=product/category\&path=95
+RedirectMatch 301 /puxadores.php http://aeroportas.com.br/index.php?route=product/category\&path=50
+RedirectMatch 301 /fechaduras.php http://aeroportas.com.br/index.php?route=product/category\&path=78
+RedirectMatch 301 /dobradicas.php http://aeroportas.com.br/index.php?route=product/category\&path=83
+RedirectMatch 301 /roldana.php http://aeroportas.com.br/index.php?route=product/category\&path=65
+RedirectMatch 301 /ferragens.php http://aeroportas.com.br/index.php?route=product/category\&path=49
+RedirectMatch 301 /fazer-orcamento.php http://aeroportas.com.br/index.php?route=checkout/simplecheckout
+RedirectMatch 301 /lista-produtos.php http://aeroportas.com.br/index.php?route=common/home
+RedirectMatch 301 /politica-de-entrega.php http://aeroportas.com.br/pol%C3%ADtica-de-entrega
+RedirectMatch 301 /politica-de-troca.php http://aeroportas.com.br/politica-de-troca
+RedirectMatch 301 /garantia-produto.php http://aeroportas.com.br/garantia-de-produtos
+RedirectMatch 301 /portas-solidas.php http://aeroportas.com.br/index.php?route=product/category\&path=97
+RedirectMatch 301 /portas-decorativas.php http://aeroportas.com.br/index.php?route=product/category\&path=97
+RedirectMatch 301 /portas-frisadas.php http://aeroportas.com.br/index.php?route=product/category\&path=97
+RedirectMatch 301 /portas-sarrafeadas.php http://aeroportas.com.br/index.php?route=product/category\&path=97
+RedirectMatch 301 /portas-macicas.php http://aeroportas.com.br/index.php?route=product/category\&path=97
+RedirectMatch 301 /portais.php http://aeroportas.com.br/index.php?route=product/category\&path=97
+RedirectMatch 301 /piso-rodape.php http://aeroportas.com.br/index.php?route=product/search\&search=rodape
+RedirectMatch 301 /piso-deck.php http://aeroportas.com.br/index.php?route=product/search\&search=deck
+RedirectMatch 301 /espuma.php http://aeroportas.com.br/index.php?route=product/search\&search=espuma
+RedirectMatch 301 /verniz.php http://aeroportas.com.br/index.php?route=product/search\&search=verniz
+RedirectMatch 301 /cola.php http://aeroportas.com.br/index.php?route=product/search\&search=cola
+RedirectMatch 301 /removedor.php http://aeroportas.com.br/index.php?route=product/search\&search=removedor
+RedirectMatch 301 /impermeabilizante.php http://aeroportas.com.br/index.php?route=product/search\&search=impermeabilizante

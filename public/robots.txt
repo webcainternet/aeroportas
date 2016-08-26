@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /lkfbpz/
+Disallow: /lkxgeq/
+Disallow: /lkxgrs/
+Disallow: /lk*

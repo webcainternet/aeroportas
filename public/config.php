@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://aeroportas.homolog.lojavirtual.digital/');
+define('HTTP_SERVER', 'http://aeroportas.com.br/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://aeroportas.homolog.lojavirtual.digital/');
+define('HTTPS_SERVER', 'http://aeroportas.com.br/');
 
 // DIR
 define('DIR_APPLICATION', '/srv/httpd/aeroportas.com.br/aeroportas/public/catalog/');
